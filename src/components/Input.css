@@ -1,0 +1,22 @@
+.input {
+  width: 40%;
+  background-color: azure;
+  display: inline-flex;
+}
+.input > input {
+  width: 100%;
+  max-width: 100%;
+  height: 2rem;
+  font-size: 18px;
+  line-height: 20;
+  outline: none;
+  border: none;
+}
+button {
+  outline: none;
+  height: 2.3rem;
+  width: 6rem;
+  border: 1px solid gray;
+  vertical-align: middle;
+  background-color: aquamarine;
+}
