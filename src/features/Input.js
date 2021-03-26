@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTodo } from './todoSlice';
+import { nanoid } from '@reduxjs/toolkit';
 
 import './../App.css';
 
@@ -13,8 +14,7 @@ const Input = () => {
     dispatch(
       addTodo({
         item: input,
-        done: false,
-        id: Date.now(),
+        id: nanoid(),
       })
     );
   }

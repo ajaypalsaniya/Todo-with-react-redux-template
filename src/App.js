@@ -16,9 +16,10 @@ function App() {
         <div className='todocontainer'>
           {todoList.length > 0 ? (
             todoList.map((todo) => (
-              <li key={todo.id} style={{ listStyle: 'none', fontSize: '14px' }}>
+              <li key={todo.id} className='listItem'>
                 {todo.item}
                 <button
+                  style={{ marginLeft: '1rem' }}
                   className='button'
                   onClick={() => dispatch(removeTodo({ id: todo.id }))}
                 >

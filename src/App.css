@@ -13,7 +13,7 @@
 .button {
   appearance: none;
   background: none;
-  font-size: 22px;
+  font-size: 20px;
   padding-left: 12px;
   padding-right: 12px;
   outline: none;
@@ -26,7 +26,7 @@
   transition: all 0.15s;
 }
 .textbox {
-  font-size: 22px;
+  font-size: 20px;
   padding: 2px;
   max-width: 360px;
   text-align: center;
@@ -41,4 +41,13 @@
   text-overflow: ellipsis;
   /* box-shadow: 2px 4px rgb(228, 181, 243); */
   box-shadow: 0 0 0 6px rgb(228, 181, 243);
+}
+.listItem {
+  list-style: none;
+  margin-bottom: 4px;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
